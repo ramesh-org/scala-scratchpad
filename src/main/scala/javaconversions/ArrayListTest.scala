@@ -25,5 +25,15 @@ object ArrayListTest extends App {
   val javaList=JavaList.getNumbers
   println(javaList)
 
+  val numbers = asScalaBuffer(JavaList.getNumbers)
+  numbers.foreach(println)
+  println(numbers.getClass)
+
+  val map=JavaList.getPeeps
+  map.foreach(println)
+
+  // explicit call
+  val peeps1 = mapAsScalaMap(JavaList.getPeeps)
+  println(peeps1)
 
 }

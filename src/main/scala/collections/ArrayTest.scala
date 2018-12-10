@@ -20,6 +20,4 @@ object ArrayTest extends App {
   nameList +="Jerry"
   nameList +="Dale"
   println(nameList)
-
-
 }

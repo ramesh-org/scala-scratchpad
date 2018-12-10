@@ -1,4 +1,4 @@
-package pattern.matching
+package patternmatching
 
 object PatternMatchingTest extends App {
   val i=14

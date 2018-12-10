@@ -1,3 +1,3 @@
-package pattern.matching
+package patternmatching
 
 case class VoiceRecording(contactName: String, link: String) extends Notification

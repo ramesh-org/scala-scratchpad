@@ -1,4 +1,4 @@
-package pattern.matching
+package patternmatching
 
 abstract class Device
 case class Phone(model: String) extends Device{

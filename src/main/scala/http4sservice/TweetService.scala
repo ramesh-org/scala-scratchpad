@@ -1,4 +1,4 @@
-package http4s.service
+package http4sservice
 
 import org.http4s.{EntityEncoder, _}
 import org.http4s.dsl._

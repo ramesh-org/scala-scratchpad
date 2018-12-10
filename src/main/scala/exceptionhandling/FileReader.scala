@@ -1,4 +1,4 @@
-package exception.handling
+package exceptionhandling
 
 import java.io.{FileNotFoundException, FileReader, IOException}
 
@@ -7,11 +7,9 @@ object FileReader extends App{
     //val fileReader = new FileReader("test.txt")
     throw new IOException("Test!")
   } catch {
-    case ex: FileNotFoundException =>{
+    case ex: FileNotFoundException =>
       println("File not found Exception. "+ex.getMessage)
-    }
-    case ex: IOException => {
+    case ex: IOException =>
       println("Input /Output Exception. "+ex.getMessage)
-    }
   }
 }
